@@ -1,0 +1,12 @@
+.main-section{ 
+    color: #fff; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 2em; 
+    margin-top: -750px; 
+    margin-left: 300px; 
+} 
+ 
+body{ 
+    overflow: hidden; 
+}
