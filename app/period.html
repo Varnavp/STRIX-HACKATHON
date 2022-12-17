@@ -1,18 +1,25 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-    <link rel="stylesheet" href="../index.css" /> 
-    <link rel="stylesheet" href="./camera.css" /> 
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="./period.css" /> 
     <script 
-      src="https://kit.fontawesome.com/bba3432f3f.js" 
-      crossorigin="anonymous" 
-    ></script> 
-    <title>Camera</title>
+    src="https://kit.fontawesome.com/bba3432f3f.js" 
+    crossorigin="anonymous" 
+  ></script> 
+  <title>Ovulation Calculator</title>
+  <style>
+    /* Add some styling for the UI */
+    input[type="number"] {
+      width: 60px;
+    }
+  </style>
 </head>
 <body>
+
     <div class="header"> 
         <div class="side-nav"> 
           <a href="#" class="logo"> 
@@ -40,16 +47,17 @@
           
           <li><a href="./heart.html"> 
               <i class="fa fa-heartbeat" aria-hidden="true"></i>
-    <p>Heart sensor</p> 
+            <p>Heart sensor</p> 
            </a> 
           </li> 
-      
+    
           <li><a href="./period.html"> 
               <i class="fa fa-tint" aria-hidden="true"></i>
-      <p>Period Tracker</p> 
+      <p>Period Tracker
+      </p> 
       </a> 
       </li> 
-      
+    
       <li><a href="./defence.html"> 
           <i class="fa fa-shield" aria-hidden="true"></i>
       <p>Defence</p> 
@@ -68,25 +76,23 @@
         </div> 
       </div> 
 
-
-
-      <section class="camera-section"> 
+      <section class="period-section"> 
         <h2> 
-          CAMERA
+        PERIOD TRACKER
         </h2> 
         <div style="width: 100%; margin-left: 50px;"> 
-            <section class="img-camera">  
-            <img src="../assets/camw.png" class="img-camera">
-            <section class="p-image">
-             <i>We will show the live feed here after hardware implementation</i>
-            </section>
-       
-      </section> 
-      </div>
+        </section>
+
+        <section class="img-period">  
+          <img src="../assets/period.png" class="img-period">
       </section>
-      
+      <section class="button-ovulation">
+        <div>
 
-
+          <button onclick="location.href = 'https://www.webmd.com/baby/healthtool-ovulation-calculator';" id="myButton" class="float-left submit-button" >OVULATION CALCULATOR</button>
+           
+          </section>
+        </div>
 
 </body>
 </html>

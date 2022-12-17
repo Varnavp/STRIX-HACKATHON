@@ -1,0 +1,25 @@
+.heart-section{
+    width: 100%;
+    color: #c39765;
+    font-size: 25px;
+    margin-top: -550px; 
+    margin-left: 300px; 
+    
+    }
+    
+    .img-heart{
+        width: 500px; 
+        
+        height: 300px;
+     margin-top: 10px; 
+     margin-left: 250px;
+    
+    
+    }
+    
+    .h-image{
+        color: #fefdfd;
+        font-size: 15px;
+        margin-left: 480px;
+        margin-top: 50px;
+    }
